@@ -1,117 +1,90 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Profile - Lara</title>
-    <meta name="description" content="This is Lara's profile page">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alpine Escape - Ski the World</title>
 
-  <body>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <div class="container nav-content">
+      <h2 class="logo">Alpine Escape</h2>
+      <div class="nav-links">
+        <a href="#">Destinations</a>
+        <a href="#">Offers</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO / BANNER -->
+  <div class="banner">
     <div class="container">
+      <h1>Ride the Slopes. Feel the Freedom.</h1>
+      <p>Luxury ski experiences in the world’s best resorts.</p>
+      <a href="#" class="btn-ski">Book your trip</a>
+    </div>
+  </div>
 
-      <!-- PROFIL -->
-      <div class="card text-center" id="introduction">
-        <h1>Hello, I'm Lara</h1>
+  <!-- DESTINATIONS -->
+  <div class="container section">
+    <h2>Top Ski Destinations</h2>
 
-        <img src="images/profile.jpg" alt="Lara" class="img-oval" id="profile-pic">
+    <div class="cards">
 
-        <p class="text-justify">
-          Hi! I'm Lara, a student passionate about international business. 
-          I am currently learning web development and I really enjoy discovering how websites are built. 
-          This experience allows me to develop new skills and be more creative.
-        </p>
-
-        <a href="https://www.lewagon.com" target="_blank" class="btn-red">
-          Discover Le Wagon
-        </a>
-      </div>
-
-      <!-- SKI -->
       <div class="card">
-        <h2>🎿 Skiing</h2>
-        <p>
-          I love skiing and spending time in the mountains. 
-          I have been skiing for many years and it is one of my biggest passions. 
-          My goal is to become a ski instructor and share my passion with others.
-        </p>
-        <p>
-          I also enjoy teaching skiing to beginners and seeing their progress. 
-          Winter sports are not just a hobby, they are a way for me to stay active and enjoy nature.
-        </p>
+        <img src="images/serfaus.jpg" alt="Serfaus">
+        <div class="card-info">
+          <h3>Serfaus 🇦🇹</h3>
+          <p>Family-friendly • High altitude • Modern lifts</p>
+          <span class="price">From €850</span>
+        </div>
       </div>
 
-      <!-- CARS -->
       <div class="card">
-        <h2>🚗 Cars</h2>
-        <p>
-          I am passionate about cars, especially classic and sports models. 
-          I enjoy learning about mechanics and performance. 
-          I also participate in rallies with my Porsche 924, which is an amazing experience.
-        </p>
-        <p>
-          I like analyzing how different parts affect speed and handling. 
-          It’s exciting to combine my knowledge of cars with practical driving.
-        </p>
+        <img src="images/valthorens.jpg" alt="Val Thorens">
+        <div class="card-info">
+          <h3>Val Thorens 🇫🇷</h3>
+          <p>Highest resort in Europe • Snow guarantee</p>
+          <span class="price">From €990</span>
+        </div>
       </div>
 
-      <!-- INTERNATIONAL -->
       <div class="card">
-        <h2>🌍 International</h2>
-        <p>
-          I speak German fluently thanks to my background and my family. 
-          I really enjoy international environments and discovering new cultures. 
-          Traveling and meeting new people are very important to me.
-        </p>
-        <p>
-          Being bilingual allows me to connect with more people and understand different perspectives. 
-          I also hope to work in international business in the future.
-        </p>
+        <img src="images/whistler.jpg" alt="Whistler">
+        <div class="card-info">
+          <h3>Whistler 🇨🇦</h3>
+          <p>Huge ski area • Powder snow • Après-ski</p>
+          <span class="price">From €1400</span>
+        </div>
       </div>
 
-      <!-- SOCIAL -->
-      <div class="card text-center">
-        <h2>Follow me</h2>
-        <ul class="list-inline">
-          <li>
-            <a href="https://www.linkedin.com/in/lara-junker-559290390/?skipRedirect=true" target="_blank">LinkedIn</a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com" target="_blank">Instagram</a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com" target="_blank">Facebook</a>
-          </li>
-        </ul>
-      </div>
-
-      <!-- STUDENTS -->
-      <div class="card text-center">
-        <h2>Students</h2>
-
-        <!-- Photos des étudiants avec cercle rouge -->
-        <img src="images/profile2.jpg" alt="profile2 " class="img-circle img-bordered-red">
-        <img src="images/profile3.jpg" alt="profile3 " class="img-circle img-bordered-red">
-        <img src="images/profile4.jpg" alt="profile4 " class="img-circle img-bordered-red">
-        <img src="images/profile5.jpg" alt="profile5 " class="img-circle img-bordered-red">
-
-        <p>
-          These students represent the energy and optimism of young graduates today confident, creative, and ready to take on the future. 
-          These portraits capture not just their faces, but their spirit and the joy of reaching this milestone.
-        </p>
-        <p>
-          They are a mix of backgrounds and interests, reflecting how diverse and dynamic young professionals can be in modern society.
-        </p>
+      <div class="card">
+        <img src="images/zermatt.jpg" alt="Zermatt">
+        <div class="card-info">
+          <h3>Zermatt 🇨🇭</h3>
+          <p>Luxury • Matterhorn view • Glacier skiing</p>
+          <span class="price">From €1600</span>
+        </div>
       </div>
 
     </div>
+  </div>
 
-  </body>
-</html>
-      </div>
+  <!-- CTA -->
+  <div class="cta">
+    <h2>Ready for your next adventure?</h2>
+    <a href="#" class="btn-ski">Start your journey</a>
+  </div>
 
-    </div>
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>© 2026 Alpine Escape • Ski the World</p>
+  </div>
 
-  </body>
+</body>
 </html>
